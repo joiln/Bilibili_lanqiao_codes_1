@@ -292,6 +292,19 @@ STL_vector/fast:
 .PHONY : STL_vector/fast
 
 #=============================================================================
+# Target rules for targets named STL_
+
+# Build rule for target.
+STL_: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 STL_
+.PHONY : STL_
+
+# fast build rule for target.
+STL_/fast:
+	$(MAKE) -f CMakeFiles\STL_.dir\build.make CMakeFiles/STL_.dir/build
+.PHONY : STL_/fast
+
+#=============================================================================
 # Target rules for targets named STL_map
 
 # Build rule for target.
@@ -303,6 +316,33 @@ STL_map: cmake_check_build_system
 STL_map/fast:
 	$(MAKE) -f CMakeFiles\STL_map.dir\build.make CMakeFiles/STL_map.dir/build
 .PHONY : STL_map/fast
+
+STL_.obj: STL_.cpp.obj
+
+.PHONY : STL_.obj
+
+# target to build an object file
+STL_.cpp.obj:
+	$(MAKE) -f CMakeFiles\STL_.dir\build.make CMakeFiles/STL_.dir/STL_.cpp.obj
+.PHONY : STL_.cpp.obj
+
+STL_.i: STL_.cpp.i
+
+.PHONY : STL_.i
+
+# target to preprocess a source file
+STL_.cpp.i:
+	$(MAKE) -f CMakeFiles\STL_.dir\build.make CMakeFiles/STL_.dir/STL_.cpp.i
+.PHONY : STL_.cpp.i
+
+STL_.s: STL_.cpp.s
+
+.PHONY : STL_.s
+
+# target to generate assembly for a file
+STL_.cpp.s:
+	$(MAKE) -f CMakeFiles\STL_.dir\build.make CMakeFiles/STL_.dir/STL_.cpp.s
+.PHONY : STL_.cpp.s
 
 STL_map.obj: STL_map.cpp.obj
 
@@ -730,8 +770,12 @@ help:
 	@echo ... question_9
 	@echo ... meiju_1
 	@echo ... STL_vector
+	@echo ... STL_
 	@echo ... STL_map
 	@echo ... rebuild_cache
+	@echo ... STL_.obj
+	@echo ... STL_.i
+	@echo ... STL_.s
 	@echo ... STL_map.obj
 	@echo ... STL_map.i
 	@echo ... STL_map.s
