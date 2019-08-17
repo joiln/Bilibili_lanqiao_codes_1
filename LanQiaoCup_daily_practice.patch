@@ -1,0 +1,22 @@
+Index: STL_.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- STL_.cpp	(date 1566031340000)
++++ STL_.cpp	(date 1566031513346)
+@@ -2,12 +2,12 @@
+ // Created by chen on 2019/8/17 16:35.
+ //
+ 
+-include <iostream>
++#include <iostream>
+ using namespace std;
+ 
+ int main() {
+ 
+-    \t
++    cout << "Hello world" << endl;
+     return 0;
+ }
+ 
