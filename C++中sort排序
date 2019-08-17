@@ -1,0 +1,29 @@
+1、sort函数可以三个参数也可以两个参数，必须的头文件#include < algorithm>和using namespace std;
+2、它使用的排序方法是类似于快排的方法，时间复杂度为n*log2(n)
+
+3、Sort函数有三个参数：（第三个参数可不写）
+
+（1） 第一个是要排序的数组的起始地址。
+
+（2） 第二个是结束的地址（最后一位要排序的地址）
+
+（3） 第三个参数是排序的方法，此方法可以自己重写，按照自己想要的方式进行排序。可以是从大到小也可是从小到大，还可以不写第三个参数，此时默认的排序方法是从小到大排序。
+
+sort有两种用法：
+ (1) 只有两个参数(默认按照从小到大)，也可以用greater<int>()
+ (2) 使用三个参数，按照第三个参数的排序方式进行排序
+
+ string 使用反向迭代器来完成逆序排列
+
+
+
+ #include <iostream>
+ using namespace std;
+ int main()
+ {
+      string str("cvicses");
+      string s(str.rbegin(),str.rend());
+      cout << s <<endl;
+      return 0;
+ }
+ //输出：sescivc
