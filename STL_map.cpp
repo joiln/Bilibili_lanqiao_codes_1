@@ -77,7 +77,8 @@ int main() {
 //
 //    MapCombanSet();
 //    MapCombanMap();
-    MapAndMatrix();
+//    MapAndMatrix();
+    FindBook()；
     return 0;
 }
 
@@ -190,5 +191,17 @@ Math 1
  */
 void FindBook()
 {
-
+    int n;
+    string name;
+    map<string,int> mp;
+    cin >> n;
+    for (int i = 0; i < n; ++i) {
+        cin >> name;
+        mp[name]++;
+    }
+    cout << mp.size() << endl;
+    for (map<string,int >::iterator it = mp.begin(); it != mp.end(); it++)
+    {
+        cout << it -> first << " " << it -> second << endl;
+    }
 }
