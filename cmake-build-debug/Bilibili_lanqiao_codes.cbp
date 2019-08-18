@@ -699,6 +699,48 @@
 					<DistClean command="D:/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Data_Structure_Codes/Bilibili_lanqiao_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="STL_Exercises">
+				<Option output="D:/Data_Structure_Codes/Bilibili_lanqiao_codes/cmake-build-debug/STL_Exercises.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Data_Structure_Codes/Bilibili_lanqiao_codes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/include/c++"/>
+					<Add directory="d:\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/include/c++/mingw32"/>
+					<Add directory="d:\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/include/c++/backward"/>
+					<Add directory="d:\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/include"/>
+					<Add directory="d:\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/../../../../include"/>
+					<Add directory="d:\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Data_Structure_Codes/Bilibili_lanqiao_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 STL_Exercises"/>
+					<CompileFile command="D:/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Data_Structure_Codes/Bilibili_lanqiao_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Data_Structure_Codes/Bilibili_lanqiao_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Data_Structure_Codes/Bilibili_lanqiao_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STL_Exercises/fast">
+				<Option output="D:/Data_Structure_Codes/Bilibili_lanqiao_codes/cmake-build-debug/STL_Exercises.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Data_Structure_Codes/Bilibili_lanqiao_codes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/include/c++"/>
+					<Add directory="d:\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/include/c++/mingw32"/>
+					<Add directory="d:\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/include/c++/backward"/>
+					<Add directory="d:\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/include"/>
+					<Add directory="d:\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/../../../../include"/>
+					<Add directory="d:\dev-cpp5.4.0\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.7.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Data_Structure_Codes/Bilibili_lanqiao_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 STL_Exercises/fast"/>
+					<CompileFile command="D:/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Data_Structure_Codes/Bilibili_lanqiao_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Data_Structure_Codes/Bilibili_lanqiao_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Dev-cpp5.4.0/Dev-Cpp/MinGW32/bin/mingw32-make.exe -f &quot;D:/Data_Structure_Codes/Bilibili_lanqiao_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="D:/Data_Structure_Codes/Bilibili_lanqiao_codes/cmake-build-debug"/>
 				<Option type="4"/>
@@ -712,6 +754,9 @@
 		</Build>
 		<Unit filename="D:/Data_Structure_Codes/Bilibili_lanqiao_codes/STL_.cpp">
 			<Option target="STL_"/>
+		</Unit>
+		<Unit filename="D:/Data_Structure_Codes/Bilibili_lanqiao_codes/STL_Exercises.cpp">
+			<Option target="STL_Exercises"/>
 		</Unit>
 		<Unit filename="D:/Data_Structure_Codes/Bilibili_lanqiao_codes/STL_map.cpp">
 			<Option target="STL_map"/>

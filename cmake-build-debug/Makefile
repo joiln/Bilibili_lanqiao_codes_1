@@ -317,6 +317,19 @@ STL_map/fast:
 	$(MAKE) -f CMakeFiles\STL_map.dir\build.make CMakeFiles/STL_map.dir/build
 .PHONY : STL_map/fast
 
+#=============================================================================
+# Target rules for targets named STL_Exercises
+
+# Build rule for target.
+STL_Exercises: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 STL_Exercises
+.PHONY : STL_Exercises
+
+# fast build rule for target.
+STL_Exercises/fast:
+	$(MAKE) -f CMakeFiles\STL_Exercises.dir\build.make CMakeFiles/STL_Exercises.dir/build
+.PHONY : STL_Exercises/fast
+
 STL_.obj: STL_.cpp.obj
 
 .PHONY : STL_.obj
@@ -343,6 +356,33 @@ STL_.s: STL_.cpp.s
 STL_.cpp.s:
 	$(MAKE) -f CMakeFiles\STL_.dir\build.make CMakeFiles/STL_.dir/STL_.cpp.s
 .PHONY : STL_.cpp.s
+
+STL_Exercises.obj: STL_Exercises.cpp.obj
+
+.PHONY : STL_Exercises.obj
+
+# target to build an object file
+STL_Exercises.cpp.obj:
+	$(MAKE) -f CMakeFiles\STL_Exercises.dir\build.make CMakeFiles/STL_Exercises.dir/STL_Exercises.cpp.obj
+.PHONY : STL_Exercises.cpp.obj
+
+STL_Exercises.i: STL_Exercises.cpp.i
+
+.PHONY : STL_Exercises.i
+
+# target to preprocess a source file
+STL_Exercises.cpp.i:
+	$(MAKE) -f CMakeFiles\STL_Exercises.dir\build.make CMakeFiles/STL_Exercises.dir/STL_Exercises.cpp.i
+.PHONY : STL_Exercises.cpp.i
+
+STL_Exercises.s: STL_Exercises.cpp.s
+
+.PHONY : STL_Exercises.s
+
+# target to generate assembly for a file
+STL_Exercises.cpp.s:
+	$(MAKE) -f CMakeFiles\STL_Exercises.dir\build.make CMakeFiles/STL_Exercises.dir/STL_Exercises.cpp.s
+.PHONY : STL_Exercises.cpp.s
 
 STL_map.obj: STL_map.cpp.obj
 
@@ -772,10 +812,14 @@ help:
 	@echo ... STL_vector
 	@echo ... STL_
 	@echo ... STL_map
+	@echo ... STL_Exercises
 	@echo ... rebuild_cache
 	@echo ... STL_.obj
 	@echo ... STL_.i
 	@echo ... STL_.s
+	@echo ... STL_Exercises.obj
+	@echo ... STL_Exercises.i
+	@echo ... STL_Exercises.s
 	@echo ... STL_map.obj
 	@echo ... STL_map.i
 	@echo ... STL_map.s

@@ -54,6 +54,7 @@ C++通过迭代器可以访问集合中的每个元素。这里迭代器指向�
 #include <iostream>
 #include <map>
 #include <set>
+#include <stdio.h>
 using namespace std;
 
 void MapCombanSet();
@@ -195,6 +196,7 @@ void FindBook()
     string name;
     map<string,int> mp;
     cin >> n;
+    //scanf("%d",&n);
     for (int i = 0; i < n; ++i) {
         cin >> name;
         mp[name]++;

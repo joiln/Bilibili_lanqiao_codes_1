@@ -69,4 +69,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/STL_vector.dir/DependInfo.cmake"
   "CMakeFiles/STL_.dir/DependInfo.cmake"
   "CMakeFiles/STL_map.dir/DependInfo.cmake"
+  "CMakeFiles/STL_Exercises.dir/DependInfo.cmake"
   )
